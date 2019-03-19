@@ -22,7 +22,7 @@ def fibonacci(n):
     if n == 1:
         return 1
     elif n == 2:
-        return 1:
+        return 1
     elif n > 2 :
         return fibonacci(n-1) + fibonacci(n-2)
 
@@ -42,21 +42,7 @@ def factorial(n):
 
 
 
-
-
-    def reverse(word):
-
+def reverse(word):
     '''Return word in reverse'''
     for i in range(len(word)):
         return word[::1]
-
-
-
-
-
-
-
-
-
-
-        
