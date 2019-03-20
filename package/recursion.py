@@ -15,13 +15,10 @@ def sum_array(array):
 
 
 
-def nth_fib(n):
-   if n == 0:
-       return 1
-   elif n == 1:
-       return 0
-   else:
-       return nth_fib(n - 1) + nth_fib(n - 2)
+def fibonacci(n):
+    if n == 0: return 0
+    elif n == 1: return 1
+    else: return fibonacci(n-1)+fibonacci(n-2)
 
 
 
