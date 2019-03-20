@@ -41,9 +41,8 @@ def factorial(n):
 
 
 
-
 def reverse(word):
-   name = ""
-   for i in word:
-   name = i + name
-   return name
+    name = ""
+    for i in word:
+        name = i + name
+        return name
