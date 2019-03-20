@@ -43,6 +43,7 @@ def factorial(n):
 
 
 def reverse(word):
-    '''Return word in reverse'''
-    for i in range(len(word)):
-        return word[::1]
+   name = ""
+   for i in word:
+   name = i + name
+   return name
